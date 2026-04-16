@@ -1,0 +1,30 @@
+# Системные файлы и директории
+node_modules
+dist
+.build
+.husky
+
+# Конфигурационные файлы
+.vite.config.ts
+.eslintrc.cjs
+.prettierignore
+.prettierrc
+.gitignore
+.nvmrc
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Специфичные файлы для редакторов кода
+.vscode
+
+# Игнорировать все .json, .svg, .yml файлы
+**/*.json
+**/*.svg
+**/*.yml
+**/*.png
+**/*.gif
+
+# env переменные
+**/.env.**
